@@ -8,6 +8,7 @@ file_types = {
     "Archives": [".zip", ".rar"]
 }
 files = os.listdir(folder)
+print("\n         FILES AVAILABLE", )
 for file in files:
     file_path = os.path.join(folder, file)
     if os.path.isdir(file_path):
