@@ -28,5 +28,5 @@ for file in files:
                 count += 1
             os.rename(file_path, destination)
             break
-print("Files organized successfully!")
+print("Files organized successfully, Thank you for ur support!")
 
